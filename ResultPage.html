@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Biz Careerz</title>
+        <link rel="icon" type="image/x-icon" href="Log.png">
+        <script src="Main.js"></script>
+        <!--Dont forget to add a favicon later-->
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                let homeTab= document.getElementById('title');
+                let tab= document.getElementById('logo');
+    
+                homeTab.addEventListener('click', () => {
+                    window.location.href = 'index.html';
+                })
+    
+                tab.addEventListener('click', () => {
+                    window.location.href = 'index.html';
+                })
+            });
+            
+        </script>
+    
+        <header id="start2">     
+            <img style= 'left:35px'id="logo" src="Log.png" alt="logo">
+            <h1 id = 'title' style="font-family: 'Source Sans Pro', sans-serif; font-weight: 700;">BizCareerz</h1>
+        
+        </header>
+                
+    
+    </head>
+            
+    </head>
+    <link rel="stylesheet" href="resultPage.css">
+    
+</head>
+<body>
+    <h2 align="center" id="Rtitle">Top 8 Most Compatible Jobs</h2>
+    <div id="results" align="center"></div>
+    <script src="resultPage.js"></script>
+
+    <button id="loopback"onclick=openNewTab()>Find Internship and Scholarship Opportunities Now!</button>
+
+</body>
+</html>
+

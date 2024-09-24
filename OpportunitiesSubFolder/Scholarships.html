@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Main2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biz Careerz</title>
+    <link rel="icon" type="image/x-icon" href="../Log.png">
+    <script src="../Main.js"></script>
+    <!--Dont forget to add a favicon later-->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        let tabs = document.getElementsByClassName('click');
+        
+        for (let i = 0; i < tabs.length; i++) {
+            let tabText = tabs[i].textContent.trim();
+            
+            // Set cursor style for buttons
+            tabs[i].style.cursor = 'pointer';
+
+            tabs[i].addEventListener('click', () => {
+                if (tabText === 'Home') {
+                    window.location.href = '../index.html';
+                } else if (tabText === 'About') {
+                    window.location.href = '../About.html';
+                } else {
+                    window.location.href = `../OpportunitiesSubFolder/${tabText}.html`;
+                }
+            });
+        }
+    });
+
+
+
+
+    </script>
+
+    <header id="start">
+        <button class="click"><h5 class="tab" style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;">Home</h1></button>
+        <button class="click"><h5 class="tab" style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;">About</h1></button>
+        <button class="click"><h5 class="tab" style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;">Opportunities</h1></button>
+        
+        <img style= 'left:35px'id="logo" src="../Log.png" alt="logo">
+        <h1 id = 'title' style="font-family: 'Source Sans Pro', sans-serif; font-weight: 700;">BizCareerz</h1>
+        <h3 style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;"><u>Made for</u> Business Students, <u>By</u> Business Students</h3>
+        <button id="getStarted" onclick="location.href='../pretest.html'">Get Started    <img id="arrow" src="../Arrow.png"></button>
+    
+    
+    </header>
+        
+</head>
+
+<body>
+    <h2 align="center" id="SHead">Scholarships</h2>
+    <div id="scholars">
+    <div class="clickable-div" onclick="window.location.href= 'https://bold.org/scholarships/the-be-bold-no-essay-scholarship/#ref=find-exclusive-scholarships';">
+        “Be Bold” Scholarship - $25,124
+    </div>
+    <div class="clickable-div" onclick="window.location.href= 'https://www.salliemae.com/scholarships/2k-scholarship/?dtd_cell=SMPLSODCZPPSOTOTOTHOTHRN010000&utm_source=niche&utm_medium=cpc&utm_campaign=acq1p_nic_s_u_u_sch_u_u&utm_content=bau';">
+        Sallie Mae Scholarship - $2,000
+    </div>
+    
+    <div class="clickable-div" onclick="window.location.href= 'https://tide.com/en-us/our-commitment/back-to-school?&utm_source=bing&utm_medium=cpc&utm_campaign=Tide_Nonbranded_BTS_scholarship24_Ext&utm_term=university+scholarships&gclid=6803ba045c9417faef42dcd2cd182870&gclsrc=3p.ds';">
+        “Tide” Scholarship - $10,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.nitrocollege.com/nitro-scholarship-application?utm_source=bing&utm_medium=cpc&utm_campaign=BING_$2k_Scholarship_2023_Phrase&utm_term=scholarships&utm_campaign=&utm_source=bing&utm_medium=ppc&hsa_acc=2056875582&hsa_cam=388438584&hsa_grp=1273235277269788&hsa_ad=&hsa_src=o&hsa_tgt=kwd-79577674376608:loc-190&hsa_kw=scholarships&hsa_mt=p&hsa_net=adwords&hsa_ver=3&msclkid=18f80aac0fc41dc990336c7a9da44f9b&utm_content=Scholarship';">
+        “Nitro College” Scholarship - $2,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.yourgreenpal.com/scholarship';">
+        GreenPal Scholarship - $2,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://aggie.tamu.edu/financial-aid/types-of-aid/scholarships/undergraduate-scholarships/brown-foundation-scholarships';">
+        Craig and Galen Brown Foundation - $10,000 - $100,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.davidsongifted.org/gifted-programs/fellows-scholarship/';">
+        “Davidson Institute” Scholarship - $50,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.northamerican.com/scholarship';">
+        North American Van Lines 2024 Logistics Scholarship - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://bigfuture.collegeboard.org/scholarships/dell-scholars-program';">
+        “College Board” - $20,000 Dell Scholars Program
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://thebusinessforum.wildapricot.org/Scholarship-Program';">
+        The Business Forum Scholarship Program - $3,500
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.lagrantfoundation.org/scholarship-application-process';">
+        LAGRANT Foundation Graduate Scholarship - $3,250
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://doodles.google.com/d4g/prizes';">
+        “Doodle for Google” Scholarship - $55,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://bigfuture.collegeboard.org/scholarships/dr-pepper-tuition-giveaway-scholarship';">
+        “Dr Pepper Tuition” Scholarship - $100,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.scrpa.org/page/Scholar';">
+        Herman F.A. Lange Scholarship - $1,500
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://limeconnect.com/awards/bmo_capital/';">
+        BMO Capital Markets Equity Through Education Scholarship - $10,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.ama.org/valuing-diversity-phd-scholarship';">
+        Valuing Diversity PhD Scholarship - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.nshss.org/scholarships/s/nshss-foundation-business-public-policy-scholarship-2024/';">
+        NSHSS Foundation Business/Public Policy Scholarship - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.zonta.org/Web/Programs/Education/Women_in_Business_Scholarship';">
+        Jane M Klausman Women in Business Scholarship
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://thesunflowerinitiative.org/apply/';">
+        “Sunflower Institute” Scholarship - $20,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.jkcf.org/our-scholarships/college-scholarship-program/';">
+        “Jack Kent Cooke Foundation” Scholarship - $55,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://patch.com/pennsylvania/radnor/kelly-rooney-memorial-scholarship-accepting-applications';">
+        “Kelly Rooney Foundation” Scholarship - $10,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.appily.com/scholarships/proton-onsite-scholarship-program';">
+        “Proton On Site Foundation” Scholarship - $100,000
+    </div>
+
+
+
+
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.mcdonalds.com/us/en-us/community/hacer.html';">
+        “McDonald's” - $1,000 - $100,000 | McDonald's HACER® National Scholarship
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.poetryfoundation.org/awards/prizes-fellowship';">
+        “Ruth and Lily Foundation” - $27,000 | Ruth Lilly and Dorothy Sargent Rosenberg Poetry Scholarship
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://bigfuture.collegeboard.org/scholarships/create-a-greeting-card-scholarship-contest';">
+        “Big Future” - $10,000 | Create-A-Greeting-Card Scholarship Contest
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://semify.com/?p=Scholarship';">
+        Semify Internet Marketing Scholarship - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://bcfscsd.org/data_post/education-training-voucher-unaccompanied-refugee-minor-etv-etv-urm/';">
+        BCFS Scholarship - $25,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://aggie.tamu.edu/financial-aid/types-of-aid/scholarships/undergraduate-scholarships/century-scholars-program';">
+        Century Scholars Program - $5,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.wtsinternational.org/wts-foundation/scholarships';">
+        WTS Scholarships - $5,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://writersofthefuture.com/enter-writer-contest/';">
+        Writers of the Future Scholarship - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://khref.org/flyer/';">
+        Khref Scholarship - $4,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.solidessay.com/essay-contest/';">
+        Solid Essay Scholarship - $2,200
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://cedaredlending.com/scholarship/';">
+        Cedar Education Learning Scholarship - $500
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.emergencydentistsusa.com/dental-scholarship/';">
+        Emergency Dentist HS Scholarship - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://m7as.scholarship.app/';">
+        CollegeBound Scholarship - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.au.org/studentcontest/';">
+        American United Scholarship - $1,500
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://spotlesscleaningchicago.com/scholarship/';">
+        Spotless Cleaning Chicago - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.corporateofficeint.com/blog/Corporate-Office-Interiors-Scholarship-Contest/';">
+        Corporate Office Interiors Scholarship - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://northremovals.com.au/north-removals-scholarship/';">
+        North Removals Scholarship - $3,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://home.innsofcourt.org/AIC/Awards_and_Scholarships/Warren_E_Burger_Prize/Warren_E._Burger_Prize_Rules.aspx';">
+        Warren E. Berger Scholarship - $5,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.jccia.com/scholarships';">
+        JCCIA Scholarship - $2,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://acis.com/students/scholarships-fundraising/';">
+        ACIS Travel Scholarship - $2,500
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://artcontest.nra.org/';">
+        NRA Youth Scholarship - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://writersofthefuture.com/enter-the-illustrator-contest/';">
+        Ron Hubbard Scholarship - $500
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://versustexas.com/down-syndrome-scholarship/';">
+        Varghese Summersett Scholarship - $500
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://andrewmatherslaw.com/andrew-s-mathers-scholarship/';">
+        Andrew S. Maher Scholarship - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.techwasterecycling.com/scholarship/';">
+        TechWaste Scholarship - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://seasonsbeachcottage.com/mental-health-education-scholarship/';">
+        Mental Health Education Scholarship - $1,500
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://scottglovsky.com/power-resilience-scholarship/';">
+        Power of Resilience Scholarship - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://joshgibsonmdgrant.com/';">
+        Josh Gibson Scholarship - $1,000
+    </div>
+
+
+
+
+
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.michiganmosquito.org/scholarshipsawards.html';">
+        MMCA Scholarship - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.rollerskating.com/scholarships.html';">
+        Roller Skating Scholarship - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://abbottandfenner.com/scholarships.php#google_vignette';">
+        Abbott and Fenner Scholarship - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.cusabio.com/scholarship.html';">
+        CUSABIO - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.christianconnector.com/christiancollegesform.cfm?adref=BoldRESP&subId1=';">
+        Christian Connector - $5,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.edvisors.com/scholarships/featured-scholarships/enter-scholarship?sname=2500-monthly-scholarship&st=1106&offer_id=2047&aff_sub=&aff_sub2=&transaction_id=102700bccf0f2b28784fa014ba106e';">
+        Edvisors - $2,500
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://scholarshipusa.goodwall.io/';">
+        Goodwall Scholarship - $2,500
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.aeaonline.org/awards/';">
+        AEA Scholarship - $500
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.isc2.org/Insights/2024/01/Cybersecurity-Scholarships-Open-for-Application';">
+        ISC Scholarship - $115,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.cde.state.co.us/coscience/cs-rb-thegoogleanitaborgmemorialscholarship#:~:text=The%20Anita%20Borg%20Memorial%20Scholarship%20is%20offered%20by%20Google.%20This';">
+        Anita Borg - $10,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://blog.collegevine.com/your-guide-to-the-google-science-fair/';">
+        College Blog - $50,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'http://www.gordonrich.org/html/index.html#:~:text=Each%20GAR%20scholarship%20is%20worth%20up%20to%20$50,000%20(approx.%20$12,500';">
+        Gordon Rich - $12,500
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://bigfuture.collegeboard.org/scholarships/guild-giving-scholarship';">
+        Guild Giving - $1,500
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://horatioalger.org/scholarships/#:~:text=While%20most%20other%20scholarships%20focus%20exclusively%20on%20academic%20achievement%20or';">
+        Horatio Alger - $10,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://gmsp.org/';">
+        Gates Millennium - $10,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.onlinedegree.com/transgender-first-scholarship/#apply';">
+        Transgender First Scholarship - $2,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.reaganfoundation.org/education/scholarship-programs/ge-reagan-foundation-scholarship-program/#:~:text=Earn%20a%20$10,000%20renewable%20scholarship%20-%20up%20to%20$40,000%20total';">
+        GE-Reagan Foundation - $40,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.fastweb.com/invite-a-friend';">
+        FastWeb - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.petplay.com/pages/scholarship';">
+        Scholars Helping Collars - $1,500
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.vfw.org/VOD/';">
+        VFW - $35,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://reelricecontest.com/';">
+        National Rice Month - $5,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://aynrand.org/students/essay-contests/#tab-3-the-fountainhead';">
+        Ayn Rand - $25,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://aynrand.org/students/essay-contests/#tab-3-atlas-shrugged-overview';">
+        Atlas Shrugged Essay - $25,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.usbank.com/about-us-bank/community/student-scholarship.html';">
+        U.S Bank - $20,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://sciencesaves.org/scholarship/';">
+        ScienceSaves Contest Scholarship - $10,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.elks.org/scholars/scholarships/mvs.cfm';">
+        Elks National Foundation Scholarship - $7,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://werksmobile.com/scholarship/';">
+        Werks Mobile Scholarship - $5,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.nshss.org/scholarships/s/notorious-rbg-women-of-tomorrow-scholarship-2024/';">
+        Notorious RBG Scholarships - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'http://www.jonestshirts.com/pages/scholarship';">
+        Love Your Career Scholarship - $1,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.ncaa.org/sports/2013/11/21/walter-byers-graduate-scholarship.aspx#:~:text=The%20Walter%20Byers%20Graduate%20Scholarship%20is%20separate%20and%20distinct%20from';">
+        NCAA Scholarship - $24,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.netc.navy.mil/Commands/Naval-Service-Training-Command/NROTC/Prospective-Midshipmen/Scholarship-and-Non-Scholarship-Options/Minority-Serving-Institution-MSI-Scholarship-Program/#:~:text=The%20NROTC%20has%20a%20limited%20number%20of%20scholarships%20available%20for';">
+        Minority Serving Institution - $10,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://fellowships.claimscon.org/#:~:text=The%20Claims%20Conference%20Saul%20Kagan%20Fellowship%20in%20Advanced%20Shoah%20Studies';">
+        Saul Kagan - $30,000
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.fastweb.com/contests/fastweb-1250-your-future-is-now-sweepstakes-summer-2024';">
+        FastWeb Sweepstakes - $1,250
+    </div>
+
+    <div class="clickable-div" onclick="window.location.href= 'https://www.burgerkingfoundation.org/programs/burger-king-sm-scholars#:~:text=Through%20the%20Burger%20King%20Scholars%20program,%20we%E2%80%99ve%20awarded%20nearly%20$55';">
+        Burger King - $60,000
+    </div>
+
+
+    
+    
+    </div>
+    <p id="buttonText">Page 1 of 2 </p><button id="next" onclick="location.href='Scholarships copy.html'">></button>
+</body>
+</html>

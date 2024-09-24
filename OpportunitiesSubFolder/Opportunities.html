@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Main2.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Biz Careerz</title>
+        <link rel="icon" type="image/x-icon" href="../Log.png">
+        <script src="../Main.js"></script>
+        <!--Dont forget to add a favicon later-->
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+            let tabs = document.getElementsByClassName('click');
+            
+            for (let i = 0; i < tabs.length; i++) {
+                let tabText = tabs[i].textContent.trim();
+                
+                // Set cursor style for buttons
+                tabs[i].style.cursor = 'pointer';
+
+                tabs[i].addEventListener('click', () => {
+                    if (tabText === 'Home') {
+                        window.location.href = '../index.html';
+                    } else if (tabText === 'About') {
+                        window.location.href = '../About.html';
+                    } else {
+                        window.location.href = `../OpportunitiesSubFolder/${tabText}.html`;
+                    }
+                });
+            }
+        });
+
+
+
+
+        </script>
+
+        <header id="start">
+            <button class="click"><h5 class="tab" style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;">Home</h1></button>
+            <button class="click"><h5 class="tab" style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;">About</h1></button>
+            <button class="click"><h5 class="tab" style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;">Opportunities</h1></button>
+            
+            <img style= 'left:35px'id="logo" src="../Log.png" alt="logo">
+            <h1 id = 'title' style="font-family: 'Source Sans Pro', sans-serif; font-weight: 700;">BizCareerz</h1>
+            <h3 style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;"><u>Made for</u> Business Students, <u>By</u> Business Students</h3>
+            <button id="getStarted" onclick="location.href='../pretest.html'">Get Started    <img id="arrow" src="../Arrow.png"></button>
+        
+        
+        </header>
+            
+    </head>
+    <body>
+        <h2 id="headinger">Opportunities</h2>
+        <div id="opportunities">
+            <div id="internships">
+                <h2 id="internshipstext">Internships</h2>
+                <hr class="under">
+                <p class="info">In order to prepare for the next generation, we have catalogued a database of internships ranging from business management to marketing to STEM and much more.</p>
+                <img src="Internships.png">
+                <p class="caption">A handful of companies offering internships you can access through BizCareerz.</p>
+                <button class="istart" onclick="location.href='Internships.html'">View Internships</button>
+            </div>
+
+
+
+            <div id="scholarships">
+                <h2 id="scholarshipstext">Scholarships</h2>
+                <hr class="under">
+                <p class="info">As part of our mission to help not only the next generation of rising business students, but all students, we have curated a database of scholarships worth over 1.5 million dollars.</p>
+                <img src="Scholarships.png"></img>
+                <p class="caption">Just a few of the many companies we have compilied scholarships from.</p>
+                <button class="istart" onclick="location.href='Scholarships.html'">View Scholarships</button>
+            </div>
+        </div>
+
+    
+    </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biz Careerz</title>
+    <link rel="icon" type="image/x-icon" href="Log.png">
+
+    <!--Dont forget to add a favicon later-->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let homeTab= document.getElementById('title');
+            let tab= document.getElementById('logo');
+
+            homeTab.addEventListener('click', () => {
+                window.location.href = 'index.html';
+            })
+
+            tab.addEventListener('click', () => {
+                window.location.href = 'index.html';
+            })
+        });
+
+    </script>
+
+    <header id="start2">     
+        <img style= 'left:35px'id="logo" src="Log.png" alt="logo">
+        <h1 id = 'title' style="font-family: 'Source Sans Pro', sans-serif; font-weight: 700;">BizCareerz</h1>
+    
+    </header>
+            
+
+</head>
+<body>
+    <h1 align="center" id="titler2">Topic Preferrences</h1>
+
+    <div id="box1" align="center">
+        <h6 style="font-size: 20px;">Please list the following business skills in order of your interest, from most to least.</h6>
+            <div id="left" align="left">
+                <div class="skills"><img src="6dots.png" align="left" class="dots" alt="6dots">
+                    <p class="textinner">Financial Analysis<p>
+                </div>
+                <div class="skills"><img src="6dots.png" align="left" class="dots" alt="6dots">
+                    <p class="textinner">Decision Making</p>
+                </div>
+                <div class="skills"><img src="6dots.png" align="left" class="dots" alt="6dots">
+                    <p class="textinner">Problem Solving</p>
+                </div>
+                <div class="skills"><img src="6dots.png" align="left" class="dots" alt="6dots">
+                    <p class="textinner">Marketing</p>
+                </div>
+                <div class="skills"><img src="6dots.png" align="left" class="dots" alt="6dots">
+                    <p class="textinner">Leadership</p>
+                </div>
+                <div class="skills"><img src="6dots.png" align="left" class="dots" alt="6dots">
+                    <p class="textinner">Management</p>
+                </div>
+                <div class="skills"><img src="6dots.png" align="left" class="dots" alt="6dots">
+                    <p class="textinner">Communication</p>
+                </div>
+            
+            
+                
+
+            </div>
+            
+            <button type="button" onclick="getCurrentOrder()" id="submit">Submit</button>
+            <div id="dropzone" align="right"><p id="text">Drop Here</p></div>
+    
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <script src="Main.js"></script>
+</body>
+

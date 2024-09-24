@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Main2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biz Careerz</title>
+    <link rel="icon" type="image/x-icon" href="../Log.png">
+    <script src="../Main.js"></script>
+    <!--Dont forget to add a favicon later-->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        let tabs = document.getElementsByClassName('click');
+        
+        for (let i = 0; i < tabs.length; i++) {
+            let tabText = tabs[i].textContent.trim();
+            
+            // Set cursor style for buttons
+            tabs[i].style.cursor = 'pointer';
+
+            tabs[i].addEventListener('click', () => {
+                if (tabText === 'Home') {
+                    window.location.href = '../index.html';
+                } else if (tabText === 'About') {
+                    window.location.href = '../About.html';
+                } else {
+                    window.location.href = `../OpportunitiesSubFolder/${tabText}.html`;
+                }
+            });
+        }
+    });
+
+
+
+
+    </script>
+
+    <header id="start">
+        <button class="click"><h5 class="tab" style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;">Home</h1></button>
+        <button class="click"><h5 class="tab" style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;">About</h1></button>
+        <button class="click"><h5 class="tab" style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;">Opportunities</h1></button>
+        
+        <img style= 'left:35px'id="logo" src="../Log.png" alt="logo">
+        <h1 id = 'title' style="font-family: 'Source Sans Pro', sans-serif; font-weight: 700;">BizCareerz</h1>
+        <h3 style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;"><u>Made for</u> Business Students, <u>By</u> Business Students</h3>
+        <button id="getStarted" onclick="location.href='../pretest.html'">Get Started    <img id="arrow" src="../Arrow.png"></button>
+    
+    
+    </header>
+        
+</head>
+
+<body>
+    <h2 align="center" id="SHead">Scholarships</h2>
+    <div id="scholars">
+        <div class="clickable-div" onclick="window.location.href= 'https://www.sttark.com/scholarship/unboxing-your-life-scholarship';">
+            Sttark - $3,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://cedaredlending.com/scholarship/';">
+            Graduate Programming - $500
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.defensivedriving.com/scholarship/';">
+            Defense Driving - $1,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.directtextbook.com/scholarship/';">
+            Direct Textbook - $2,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.emich.edu/admissions/scholarships/psc.php#:~:text=Eastern%27s%20most%20prestigious%20award%20for%20incoming%20first-year%20students,%20the%20Presidential';">
+            Presidential Scholarship - $100,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://ronbrown.org/';">
+            Ron Brown Scholar - $40,000
+        </div>
+        <div class="clickable-div" onclick="window.location.href= 'https://www.ouimet.org/#:~:text=The%20Francis%20Ouimet%20Scholarship%20Fund%20awards%20millions%20in%20need-based%20college';">
+            Francin Ouimet - $60,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.cerra.org/teaching-fellows.html#:~:text=The%20SC%20General%20Assembly%20began%20funding%20the%20South%20Carolina%20Teaching';">
+            Caroline Teaching - $24,000
+        </div>
+        
+        
+        
+        
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.hertzfoundation.org/the-fellowship/';">
+            Hertz Foundation - $30,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.vfw.org/media-and-events/latest-releases/archives/2024/3/vfw-now-accepting-applications-for-its-annual-youth-scholarship-contests';">
+            Veterans of Foreign War - $35,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.nshss.org/scholarships/';">
+            NSHSS Diversity - $10,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://aesengineers.com/scholarships.php';">
+            AES - $500
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.couponbirds.com/scholarship';">
+            CouponBird - $1,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.cjponyparts.com/cj-pony-parts-scholarship-video-contest';">
+            CJ Pony Parts - $500
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'http://www.jumpstart-scholarship.net/';">
+            College Jumpstart - $1,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.kulpa.org/kulpa-care-scholarship-program';">
+            Kulpa Care Access Program - $1,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://pettable.com/scholarship';">
+            Pettable - $1,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.waggle.org/waggle-scholarship';">
+            Waggle Foundation - $1,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.servicescape.com/scholarship';">
+            ServiceScrape - $1,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.andrewflusche.com/scholarship/';">
+            Andrew Flusche Scholarship - $500
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.dmvedu.org/scholarship/';">
+            National Driving and Traffic School - $500
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://heysunday.com/products/our-best-selling-detergent-sheets#scholarship';">
+            HeySunday - $1,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.insuranceproviders.com/look-twice-save-a-life-scholarship/';">
+            InsuranceProviders Scholarship - $1,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://pnc.financialliteracy101.org/scholarship/';">
+            PNC Scholarship - $10,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.foreclosure.com/scholarship';">
+            Foreclosure.com Scholarship - $4,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.ngsgenealogy.org/competitions/rubincam-youth-award/';">
+            Rubincam Youth Writing Competition - $500
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://ekinsurance.com/ek-insurance-scholarship/';">
+            EK Insurance - $500
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://anchellworkshops.com/international-documentary-photography-award/';">
+            Anchell Photography - $1,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.studentcam.org/';">
+            StudentCam Competition - $5,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.christophers.org/youth';">
+            The Christophers - $2,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.maganavandyke.com/scholarship';">
+            Magana & Van Dyke - $1,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.gallerycollection.com/greetingcardscontests.htm';">
+            Gallery Collection - $10,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.cardsdirect.com/scholarship.aspx';">
+            CardsDirect - $1,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://constitutingamerica.org/contest-categories/';">
+            Constituting America - $5,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.zicklincontracting.com/restoration-awarness-scholarship';">
+            Zicklin Contracting - $1,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.corporateofficeint.com/blog/Corporate-Office-Interiors-Scholarship-Contest/';">
+            Corporate Office Interiors - $1,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.1fbusascholarship.com/?utm_source=fastweb&utm_medium=referral&utm_campaign=1fbscholarship';">
+            Financial Goals Scholarships - $2,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.ajc.org/campus';">
+            AJC Goldman Summer Fellowship - $4,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://bronxbrothers.org/scholarships/';">
+            Bronx Brothers - $1,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.peta.org/features/future-without-speciesism-competition/';">
+            PETA - $10,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.pokemon.com/us/play-pokemon/about/tournaments-rules-and-resources';">
+            Pokemon - $1,000
+        </div>
+        
+        <div class="clickable-div" onclick="window.location.href= 'https://www.pulseofp3.org/scholarship-info-and-winner';">
+            Pulse of Perseverance - $1,000
+        </div>
+
+
+    
+    
+    </div>
+    <button id="next2" onclick="location.href='Scholarships.html'"><</button><p id="buttonText2">Page 2 of 2 </p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

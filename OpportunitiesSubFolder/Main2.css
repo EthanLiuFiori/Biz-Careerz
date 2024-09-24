@@ -1,0 +1,421 @@
+#logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 12px;
+}
+#start {
+    position: fixed;
+    top: 0;
+    left: 15%;
+    width: 100%;
+    height: 70px;
+    color: white;
+    padding: 5px;
+    margin: 0px;
+    z-index: 1000; /* Ensures the header stays on top of other content */
+    display: flex;
+    gap:40px;
+    direction: ltr;
+
+}
+#getStarted{
+    position: relative;
+    top: 9px;
+    border-radius: 230px;
+    color: #ffffff;
+    padding-right:20px;
+    padding-left:0px;
+    width: 170px;
+    text-align: center;
+    padding-top: 7px;
+    background-image: linear-gradient(45deg, #1133e2ff, #4f0b70ff);
+    font-size: 15px;
+    font-family: arial, 'Source Sans Pro', sans-serif; font-weight: 60;
+    height: 50px;
+
+}   
+#title{
+    top: -4px
+}
+.tab {
+    cursor: pointer;
+}
+h1{
+    position: relative;
+    top: -20px;
+
+}
+
+button.click { background:none; border:none; margin:0px; padding:0px; gap:0px; position:relative;display: block;}
+body {
+    margin: 0;
+    padding: 70px 0 0 0; /* Adjust padding to accommodate the fixed header */
+    padding-bottom: 100px;
+    background-image: url("../Background.png");
+    transition: background-position 0.75s ease;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(30px) brightness(70%);
+    background-position: center top;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+
+}
+#arrow{
+    position: absolute;
+    height:20px;
+    width: 20px;
+    right:25px;
+    top:15px;
+}
+/* Hide scrollbars only if necessary */
+body::-webkit-scrollbar {
+    width: 0px; /* Set to a small width to hide scrollbar while still allowing scrolling */
+}
+
+html, body {
+    -ms-overflow-style: none;  /* Ensure scrolling is allowed in IE and Edge */
+    scrollbar-width: none; /* Make scrollbar thin in Firefox */
+}
+
+
+h3{
+    position: absolute;
+    top:12px; left: 600px;
+    color: white; 
+}
+#old {
+    color:white;
+    position: absolute;
+    top: 70px;
+    width: 98%;
+    right: 18px;
+}
+#intro{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center;
+    color: black;
+    text-align: center;
+    width: 40%;
+}
+#what{
+    font-size: xx-large;
+    padding-top: 16%;
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center;
+    color: black;
+    
+}
+#info{
+    align-content: center;
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center;
+    color: black;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+#how{
+    font-size: xx-large;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center;
+    color: black;
+    
+    
+}
+.new{
+    color: white;
+    width: 12%;
+    position: relative;
+    top: -20px
+}
+
+button {
+    background-color: black;
+    color: #02c6e8;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
+    margin: 0 auto 0;
+    cursor: pointer;
+    border-radius: 0px;
+}
+#but{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center;
+    color: black;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+body::-webkit-scrollbar {
+    width: 0px; /* Hide scrollbar */
+    background: transparent; /* Transparent background */
+}
+
+
+
+
+
+
+
+
+#opportunities{
+    display: grid; grid-template-columns: auto auto; justify-content: center; align-items: center; gap: 150px;
+}
+
+#internships, #scholarships {
+    position:relative;
+    top:26%;
+    width: 700px;
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgba(183, 0, 255, 0.2);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+#internships:hover, #scholarships:hover {
+    transform: scale(1.005);
+}
+
+#internshipstext, #scholarshipstext {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif; font-weight: 250;
+}
+#headinger{
+    position: relative;
+    top: 10px; left:43%;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: -100px;
+    font-family: 'Source Sans Pro', sans-serif; font-weight: 250;
+}
+
+.under{
+    width: 100%;
+}
+.istart{
+    border: rgba(135, 44, 163, 0.699) 3px solid;
+    border-radius: 10px;
+    background:none;
+    position: relative;
+    top:70px;
+    width: 240px;
+    height: 60px;
+    background-color: rgb(73, 22, 97);
+    transition: transform 0.3s ease;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif; font-weight: 300;
+}
+.istart:hover{
+    transform: scale(1.05);
+}
+.info{
+    position: relative;
+    color: white;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif; font-weight: 0;
+}
+img{
+    width:700px;
+    height: 350px;
+    position:relative;
+    top:50px;
+}
+.caption{
+    position:relative;
+    top:50px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif; font-weight: 250;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#iheadinger{
+    position: relative;
+    top: 10px; left:46%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 100px;
+    font-family: 'Source Sans Pro', sans-serif; font-weight: 250;
+}
+#gen{
+    display: grid; grid-template-columns: auto auto; justify-content: center; align-items: center; gap: 150px;
+    padding-bottom: 150px; position:relative; top:10px;
+}
+#gen2{
+    display: flex; gap:150px; position:relative; left:22.5%; top:150px;
+}
+.iinterns{
+    position:relative;
+    top:60%;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgba(183, 0, 255, 0.2);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    align-items: center;
+    transition: transform 0.3s ease;
+    font-family: 'Source Sans Pro', sans-serif; font-weight: 250;
+}
+
+.iinterns:hover {
+    transform: scale(1.01);
+}
+.iinterns p {position:relative; top:40px}
+.iinterns button {
+    position: absolute;
+    top: 150px;
+    background-color: rgba(183, 0, 255, 0.2);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 auto 0;
+    cursor: pointer;
+    border-radius: 0px;
+    transition: transform 0.3s ease;
+}
+.iinterns button:hover {
+    transform: scale(1.05);
+
+}
+#odd{
+    position: relative;
+    top: 20px;
+}
+
+
+
+
+
+
+.clickable-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif; font-weight: 0;
+    transition: transform 0.3s ease;
+    border:rgba(183, 0, 255, 0.2) 3px solid;
+    border-radius: 10px;
+    background:none;
+    position: relative;
+    top:70px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.clickable-div:hover{
+    transform: scale(1.05);
+}
+#scholars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    backdrop-filter: blur(30px) brightness(70%);
+    padding-bottom: 10px;
+}
+#next{
+    position: relative;
+    top:86px;
+
+    left:51%;
+    height:45px;
+    background-color: transparent;
+
+    border-radius:8px;
+    margin-bottom: 150px
+}
+#buttonText{
+    position: absolute;
+    top: 3811px;
+    color: aqua;
+    font-family: 'Source Sans Pro', sans-serif; font-weight: 0;
+    font-size: 14px;
+    left:48%;
+}
+#next2{
+    position: relative;
+    top:86px;
+
+    left:46.5%;
+    height:45px;
+    background-color: transparent;
+
+    border-radius:8px;
+    margin-bottom: 150px
+}
+#buttonText2{
+    position: absolute;
+    top: 2019px;
+    color: aqua;
+    font-family: 'Source Sans Pro', sans-serif; font-weight: 0;
+    font-size: 14px;
+    left:48.5%;
+}
+
+#SHead{
+    position: relative;
+    top:10px;
+    font-family: 'Source Sans Pro', sans-serif; font-weight: 0;
+    font-size: 40px;    
+    color:white;
+}

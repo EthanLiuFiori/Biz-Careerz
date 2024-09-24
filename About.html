@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">         
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Biz Careerz</title>
+        <link rel="icon" type="image/x-icon" href="Log.png">
+        <script src="Main.js"></script>
+        <!--Dont forget to add a favicon later-->
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+            let tabs = document.getElementsByClassName('click');
+            
+            for (let i = 0; i < tabs.length; i++) {
+                let tabText = tabs[i].textContent.trim();
+                
+                // Set cursor style for buttons
+                tabs[i].style.cursor = 'pointer';
+
+                tabs[i].addEventListener('click', () => {
+                    if (tabText === 'Home') {
+                        window.location.href = 'index.html';
+                    } else if (tabText === 'Opportunities') {
+                        window.location.href = 'OpportunitiesSubFolder/Opportunities.html';
+                    } else {
+                        window.location.href = `${tabText}.html`;
+                    }
+                });
+            }
+        });
+
+
+
+
+        </script>
+
+        <header id="start">
+            <button class="click"><h5 class="tab" style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;">Home</h1></button>
+            <button class="click"><h5 class="tab" style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;">About</h1></button>
+            <button class="click"><h5 class="tab" style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;">Opportunities</h1></button>
+            
+            <img style= 'left:35px'id="logo" src="Log.png" alt="logo">
+            <h1 id = 'title' style="font-family: 'Source Sans Pro', sans-serif; font-weight: 700;">BizCareerz</h1>
+            <h3 style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;"><u>Made for</u> Business Students, <u>By</u> Business Students</h3>
+            <button id="getStarted" onclick="location.href='pretest.html'">Get Started    <img id="arrow" src="Arrow.png"></button>
+        
+        
+        </header>
+
+
+
+
+    </head>
+    <body>
+
+
+
+
+
+
+
+
+        <h1 align="center" id="at1">About</h1>
+        <h2 align="center" id="at2">At BizCareerz, we are passionate about shaping the future of business by empowering the next generation of leaders. Our platform is designed to guide students through their career journey, offering tailored resources and insights that help them make informed decisions about their futures. As a socially-driven enterprise, we believe in providing equal access to career exploration tools, internships, and scholarships to ensure that all students, regardless of background, have the opportunity to succeed. Our commitment goes beyond career matching – we aim to inspire, support, and equip future business professionals to not only thrive in their careers but also make a positive impact in their communities.
+        </h2>
+    </body>
+
+
+
+
+
+
+</html>

@@ -1,0 +1,602 @@
+
+#logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 12px;
+}
+#start {
+    position: fixed;
+    top: 0;
+    left: 15%;
+    width: 100%;
+    height: 70px;
+    color: white;
+    padding: 5px;
+    margin: 0px;
+    z-index: 1000; /* Ensures the header stays on top of other content */
+    display: flex;
+    gap:40px;
+    direction: ltr;
+
+}
+#getStarted{
+    position: relative;
+    top: 9px;
+    border-radius: 230px;
+    color: #ffffff;
+    padding-right:20px;
+    padding-left:0px;
+    width: 170px;
+    text-align: center;
+    padding-top: 7px;
+    background-image: linear-gradient(45deg, #1133e2ff, #4f0b70ff);
+    font-size: 15px;
+    font-family: arial, 'Source Sans Pro', sans-serif; font-weight: 60;
+    height: 50px;
+
+}   
+#title{
+    top: -4px
+}
+.tab {
+    cursor: pointer;
+}
+h1{
+    position: relative;
+    top: -20px;
+
+}
+
+button.click { background:none; border:none; margin:0px; padding:0px; gap:0px; position:relative;display: block;}
+body {
+    margin: 0;
+    padding: 70px 0 100px 0; /* Adjust bottom padding for more distance */
+    background-image: url("Background.png");
+    transition: background-position 0.75s ease;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(30px) brightness(70%);
+    background-position: center top;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    padding-bottom: 50px;
+}
+
+#body1{
+    margin: 0;
+    padding: 70px 0 100px 0; /* Adjust bottom padding for more distance */
+    background-image: url("Background.png");
+    transition: background-position 0.75s ease;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(30px) brightness(70%);
+    background-position: center top;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    padding-bottom: 700px;
+}
+
+#st111{
+    position: absolute;
+    height: 40px;
+    width: 300px;
+    top: 1500px;
+    right: 42.5%;
+
+}
+#arrow{
+    position: absolute;
+    height:20px;
+    width: 20px;
+    right:25px;
+    top:15px;
+}
+/* Hide scrollbars only if necessary */
+body::-webkit-scrollbar {
+    width: 0px; /* Set to a small width to hide scrollbar while still allowing scrolling */
+}
+
+html, body {
+    -ms-overflow-style: none;  /* Ensure scrolling is allowed in IE and Edge */
+    scrollbar-width: none; /* Make scrollbar thin in Firefox */
+}
+
+
+h3{
+    position: absolute;
+    top:12px; left: 600px;
+    color: white; 
+}
+#old {
+    color:white;
+    position: absolute;
+    top: 70px;
+    width: 98%;
+    right: 18px;
+}
+#intro{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center;
+    color: black;
+    text-align: center;
+    width: 40%;
+}
+#what{
+    font-size: xx-large;
+    padding-top: 16%;
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center;
+    color: black;
+    
+}
+#info{
+    align-content: center;
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center;
+    color: black;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+#how{
+    font-size: xx-large;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center;
+    color: black;
+    
+    
+}
+.new{
+    color: white;
+    width: 12%;
+    position: relative;
+    top: -20px
+}
+
+button {
+    background-color: black;
+    color: #02c6e8;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
+    margin: 0 auto 0;
+    cursor: pointer;
+    border-radius: 0px;
+}
+#but{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center;
+    color: black;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+body::-webkit-scrollbar {
+    width: 0px; /* Hide scrollbar */
+    background: transparent; /* Transparent background */
+}
+#left {
+    cursor: move;
+    width: 40%;
+    height: 78%;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: move;
+    right: 100; top:100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+}
+.skills {
+    cursor: move;
+    width: 90%;
+    height: 10%;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    padding: 0 10px; /* Padding inside the box */
+}
+
+.dots {
+    max-height: 20px;
+    max-width: 20px;
+    margin-right: 10px; /* Space between image and text */
+}
+
+.textinner {
+    flex-grow: 1; /* Allows the text to occupy the remaining space */
+    text-align: center; /* Aligns the text to the left, adjust to center if needed */
+    padding-left: 0px; /* Optional: Adds padding between text and image */
+    font-family: 'Source Sans Pro', Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+
+#dropzone {
+    width: 40%;
+    height: 80%;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    left:57%; top:100px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+#box1 {
+    width: 70%;
+    height: 600px;
+    background-color: lightblue;
+    border: 2px solid darkblue;
+    border-radius: 3px;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+    align-items: flex;
+    margin: 0 auto 0;
+    top: 50px;
+}
+h6{
+    position:relative;
+    top: -30px; right:0px;
+    font-family: Optima, "Helvetica", "Arial", sans-serif;
+
+}
+#text{
+    position:absolute;
+    right:225px; top:-42px
+}
+#submit{
+    position: absolute;
+    right: 44.25%;
+    top:550px;
+    width:150px;
+}
+#start2 {
+    position: fixed;
+    top: 0;
+    left: 42.25%;
+    width: 100%;
+    height: 70px;
+    color: white;
+    padding: 5px;
+    margin: 0px;
+    z-index: 1000; /* Ensures the header stays on top of other content */
+    display: flex;
+    gap:40px;
+    direction: ltr;
+    cursor: pointer;
+}
+#titleduring{
+    position: relative;
+    left:150px; top:-4px;
+}
+#wfef{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top:16px;
+    padding-left: 310px;
+}
+
+#titler2{
+    position: relative;
+    color:#ffffff;
+    top:20px;
+    font-size:40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    left:5px;
+}
+
+
+
+
+
+#b1{
+
+    
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: hidden;
+}
+#t1{
+    color:white;
+    position: relative;
+    left:36%;
+    font-size: 60px;
+    margin: 30px auto -20px;
+}
+#t2{
+    color:white;
+    position: relative;
+    left:25%;
+    font-size: 20px;
+}
+#d1{
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 1500px;
+    height: auto;
+    align-self: center;
+    margin: 0 auto 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    margin-bottom: 10px;
+    padding:35px;
+
+}
+#pagecount{
+    position: relative;
+    left: 47.1%; top:20px;
+    font-size: 20px;
+    color: white;
+    margin: bottom 0;
+    padding: bottom 0;
+}
+#quizForm{
+    color:white;
+    position: relative;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+}
+#next{
+    position: relative;
+    left:46%;
+    margin-top: 40px;
+}
+#next23{
+    position: relative;
+    left:45.39%;
+    margin-top: 40px;
+}
+#errormessage{
+    color:rgb(206, 23, 23);
+    font-size: 18px;
+
+}
+input{
+    margin: 6px;
+}
+#quizForm2{
+    color:white;
+    position: relative;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    word-wrap: break-word;
+}
+#right2{
+    position: relative;
+    left:10.5%;
+    word-wrap: break-word;
+    word-wrap: break-word; /* Ensures long words are broken */
+    overflow-wrap: break-word; /* Modern equivalent of word-wrap */
+    word-break: break-word; /* Breaks words at appropriate points */
+    white-space: normal; /* Ensures the text wraps */
+    width: 100%; /* Ensures label takes up full width of container */
+    display: block;
+}   
+label{
+    margin-right: 100px;
+}
+#right3{
+    position: relative;
+    left:20px;
+    word-wrap: break-word;
+    width: 850px;
+}
+#right4 {
+    position: relative;
+    left: 15%;
+    word-wrap: break-word;
+
+    overflow-wrap: break-word; /* Ensures long words break */
+    word-break: normal; /* Resets word-break to avoid breaking mid-word */
+}
+#right131313{
+    position: relative;
+    left: -15px;
+}   
+#left132{
+    position: relative;
+    left: -110px;
+}
+#left133{
+    position: relative;
+    left: -328px;
+    width:550px;
+    
+    
+}
+#newprob{
+    position: relative;
+    left: -14%;
+    word-wrap: break-word;
+}
+#t11{
+    color:white;
+    position: relative;
+    left:33.925%;
+    font-size: 60px;
+    margin: 30px auto -20px;
+}
+#t22{
+    color:white;
+    position: relative;
+    left:21.3%;
+    font-size: 20px;
+}
+#right5{
+    position: relative;
+    left: 16.5%;
+    word-wrap: break-word;
+}
+#right6{
+    position: relative;
+    left: -72px; top:-6px;
+    word-wrap: break-word;
+}
+#right233{
+    position: relative;
+    left: -11.525%;
+    word-wrap: break-word;
+}
+
+#right231313131313231{
+    position: relative;
+    left: 7.6%;
+    word-wrap: break-word;
+}
+#secprob{
+    position: relative;
+    left: -13.5%;
+    word-wrap: break-word;
+}
+#next333{
+    position: relative;
+    left: 44%;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+#ti1{
+    position: absolute;
+    left:47.5%;
+    top: 400px;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:80px; font-weight: bolder;
+}
+#switcher{
+    position: absolute;
+    left:110%;
+    top: 50px;
+    width:80px; height: 80px;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:20px;font-weight: lighter;
+}
+#ti2{
+    position: absolute;
+    left:50%;
+    top: 520px;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:20px;font-weight: lighter;
+}
+#hr1{
+    position: absolute;
+    left:50%;
+    top: 500px;
+    transform: translate(-50%,-50%);
+    color:white;
+    width:20%;
+
+}
+
+#st1{
+    width: 50%;
+    position: relative;
+    left: 50%;
+    top: 1030px;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+
+    text-align: center;
+}
+#st2{
+    width: 50%;
+    position: relative;
+    left: 50%;
+    top: 1030px;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+
+    text-align: center;
+}
+#hr2{
+    width: 30%;
+    position: relative;
+    top:970px;
+}
+#stt1{
+    width: 60%;
+    position: relative;
+    left: 50%;
+    top: 1000px;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:30px; font-weight:500;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+#at1{
+    color:white;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    top:250px;
+    font-size: 50px;
+}
+#at2{
+    color:white;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    top:300px; left:22.5%;
+    width:1000px;
+    font-size: 18px;
+}

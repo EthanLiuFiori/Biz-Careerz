@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Main2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biz Careerz</title>
+    <link rel="icon" type="image/x-icon" href="../Log.png">
+    <script src="../Main.js"></script>
+    <!--Dont forget to add a favicon later-->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        let tabs = document.getElementsByClassName('click');
+        
+        for (let i = 0; i < tabs.length; i++) {
+            let tabText = tabs[i].textContent.trim();
+            
+            // Set cursor style for buttons
+            tabs[i].style.cursor = 'pointer';
+
+            tabs[i].addEventListener('click', () => {
+                if (tabText === 'Home') {
+                    window.location.href = '../index.html';
+                } else if (tabText === 'About') {
+                    window.location.href = '../About.html';
+                } else {
+                    window.location.href = `../OpportunitiesSubFolder/${tabText}.html`;
+                }
+            });
+        }
+    });
+
+
+
+
+    </script>
+
+    <header id="start">
+        <button class="click"><h5 class="tab" style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;">Home</h1></button>
+        <button class="click"><h5 class="tab" style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;">About</h1></button>
+        <button class="click"><h5 class="tab" style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;">Opportunities</h1></button>
+        
+        <img style= 'left:35px'id="logo" src="../Log.png" alt="logo">
+        <h1 id = 'title' style="font-family: 'Source Sans Pro', sans-serif; font-weight: 700;">BizCareerz</h1>
+        <h3 style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;"><u>Made for</u> Business Students, <u>By</u> Business Students</h3>
+        <button id="getStarted" onclick="location.href='../pretest.html'">Get Started    <img id="arrow" src="../Arrow.png"></button>
+    
+    
+    </header>
+        
+</head>
+
+<body>
+    <h2 align="center" id="SHead">Stem Internships</h2>
+    <div id="scholars">
+        <div class="clickable-div" onclick="window.location.href='https://www.nasa.gov/learning-resources/internship-programs/'">NASA OSTEM Internship</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.training.nih.gov/research-training/hs/hs-sip/'">National Institute of Health</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.ladderinternships.com/'">Ladder Internship Program</div>
+
+<div class="clickable-div" onclick="window.location.href='https://jooble.org/jdp/4080632195248000139?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic'">Air Force Research Lab</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.intelligencecareers.gov/nsa/students-and-internships'">NSA High School Work Study</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.navalsteminterns.us/seap/'">Science and Engineering Apprenticeship Program (SEAP)</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.pppl.gov/high-school-summer-internship/'">Princeton Plasma Physics Laboratory</div>
+
+<div class="clickable-div" onclick="window.location.href='https://careers.nsbe.org/job/part-time-assistant-l-hsi-stem-intern-grant/74187501/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic'">Lone Star College</div>
+
+<div class="clickable-div" onclick="window.location.href='https://inl.gov/inl-initiatives/education/high-school-internships/'">Idaho National Laboratory (INL)</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.adzuna.com/details/4811362133?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic'">Yeshiva University</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.sparksmp.org/'">Spark Summer Program</div>
+
+<div class="clickable-div" onclick="window.location.href='https://hutton.fisheries.org/'">Hutton Junior Fisheries Biology Program</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.gradachiever.com/opportunity/nasa-internship-scan-high-school-stem-education-in-quantum-communications/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic'">NASA Quantum Communications Internship</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.linkedin.com/jobs/view/stem-student-employment-program-ssep-at-air-force-research-laboratory-3905867713?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic'">SSEP Air Force</div>
+
+<div class="clickable-div" onclick="window.location.href='https://ncifrederick.cancer.gov/careers/student_programs/internships/SIP/'">Werner H. Kirsten (WHK) Student Intern Program</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.jbei.org/education/research-experiences/iclem-program/'">Introductory College Level Experience in Microbiology (iCLEM)</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.joinrs.com/en/job-offers/75236/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic'">Abbott</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.msgc.org/students/internships/highschool/'">Maine Space Grant Consortium</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.calacademy.org/careers-in-science-cis-intern-program'">Careers in Science (CiS) Intern Program</div>
+
+<div class="clickable-div" onclick="window.location.href='https://jobgether.com/offer/668eb09ccf81273a4aeda7a6-huca250-internship-program-manager?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic'">Jersey Stem</div>
+
+<div class="clickable-div" onclick="window.location.href='https://science.gmu.edu/assip'">Aspiring Scientists Summer Internship Program (ASSIP)</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.nist.gov/iaao/academic-affairs-office/high-school-students-ship'">National Institute of Standards and Technology</div>
+
+<div class="clickable-div" onclick="window.location.href='https://jobs.smartrecruiters.com/TheAparecioFoundationNFP/85571504-digital-photographer-volunteer-intern-for-100-women-in-s-t-e-m-program?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic'">Aparecio Foundation</div>
+
+<div class="clickable-div" onclick="window.location.href='https://sandiegozoowildlifealliance.org/jobs/internships'">San Diego Zoo Wildlife Alliance Summer Internship</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.lanl.gov/careers/career-options/student-internships/high-school/index.php'">Los Alamos National Laboratory High School Internship Program</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.mysmartpros.com/tuition/job/summer-2024-sas-united-in-stem-diversity-internship-program-women-in-cary-nc/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic/'">Vmysmartpros</div>
+
+<div class="clickable-div" onclick="window.location.href='https://education.jlab.org/hsapplication/'">Thomas Jefferson National Accelerator Facility: J-Lab High School Summer Honors Program</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.jcvi.org/careers#internships'">J. Craig Venter Institute Internship Program</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.adzuna.com/details/4804387333?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic'">Procter & Gamble</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.broadinstitute.org/partnerships/education/k-12-outreach/broad-summer-scholars-program'">Broad Summer Scholars Program (BSSP)</div>
+
+<div class="clickable-div" onclick="window.location.href='https://aqua.org/education/programs/henry-hall-fellowship'">Henry Hall Fellowship</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.ziprecruiter.com/c/Toyota-Motor-Sales,-U.S.A.,-Inc./Job/STEM-Co-Op/-in-Princeton,IN?jid=3c3970ae1fdc8e00&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic'">Toyota STEM Co-Op</div>
+
+<div class="clickable-div" onclick="window.location.href='https://careers.microsoft.com/v2/global/en/discoveryprogram'">Microsoft Discovery Program</div>
+
+<div class="clickable-div" onclick="window.location.href='https://metasummeracademy.com/'">Meta Summer Academy</div>
+
+<div class="clickable-div" onclick="window.location.href='https://kplaunch.kaiserpermanente.org/'">KP Launch</div>
+
+<div class="clickable-div" onclick="window.location.href='https://btiscience.org/education-outreach/high-school-research-internships/'">Boyce Thompson Institute High School Internship</div>
+
+<div class="clickable-div" onclick="window.location.href='https://compression.stanford.edu/outreach/shtem-summer-internships-high-schoolers-and-community-college-students'">Stanford SHTEM Summer Internship</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.scripps.edu/science-and-medicine/translational-institute/education-and-training/student-research-internship/'">Scripps Student Research Internship</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.fredhutch.org/en/education-training/high-school-students/summer-high-school-internship-program.html'">Fred Hutch Cancer Center Summer High School Internship Program (SHIP)</div>
+
+<div class="clickable-div" onclick="window.location.href='https://onelifeinterior.com'">NSA</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.ll.mit.edu/outreach/llrise'">Lincoln Laboratory Radar Introduction for Student Engineers (LLRISE)</div>
+
+<div class="clickable-div" onclick="window.location.href='https://www.stonybrook.edu/commcms/simons/index.php'">Simons Summer Research Program</div>
+
+
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

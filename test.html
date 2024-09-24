@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Preferrences Questionnaire</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/x-icon" href="Log.png">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let homeTab= document.getElementById('title');
+            let tab= document.getElementById('logo');
+
+            homeTab.addEventListener('click', () => {
+                window.location.href = 'index.html';
+            })
+
+            tab.addEventListener('click', () => {
+                window.location.href = 'index.html';
+            })
+        });
+        if (sessionStorage.getItem('temp')) {
+            sessionStorage.removeItem('temp');
+        }
+    </script>
+
+    <header id="start2">     
+        <img style= 'left:35px'id="logo" src="Log.png" alt="logo">
+        <h1 id = 'title' style="font-family: 'Source Sans Pro', sans-serif; font-weight: 700;">BizCareerz</h1>
+    
+    </header>
+</head>
+<body id="b1">
+    <div id="d1">
+    <div class="container">
+        <h1 id="t1">Find Your Future</h1>
+        <h4 id="t2">Please answer the following questions to find potential career options for you to choose from:</h4>
+        <form id="quizForm">
+            <div class="Financial Analysis">
+                <label>1. Do you think you would enjoy analyzing and interpreting complex financial data to inform business decisions?</label><br>
+                <input type="radio" name="question1" value="1"> Yes<br>
+                <input type="radio" name="question1" value="0"> No<br>
+                <input type="radio" name="question1" value="2"> Maybe<br>
+            </div>
+
+            <div class="Financial Analysis" id="right">
+                <label>2. Do you think you would be able to identify discrepancies in financial records and ensure accuracy?</label><br>
+                <input type="radio" name="question2" value="1"> Yes<br>
+                <input type="radio" name="question2" value="0"> No<br>
+                <input type="radio" name="question2" value="2"> Maybe<br>
+            </div>
+            
+        </form>
+        <form id="quizForm2">
+
+            <div class="Decision Making">
+                <label>3. Do you thrive in high-pressure environments that require quick and strategic decision-making?</label><br>
+                <input type="radio" name="question3" value="1"> Yes<br>
+                <input type="radio" name="question3" value="0"> No<br>
+                <input type="radio" name="question3" value="2"> Maybe<br>
+            </div>
+
+            <div class="Problem Solving" id="right231313131313231">
+                <label>4. Do you think you would be able to diagnose business challenges and provide strategic solutions to improve performance?</label><br>
+                <input type="radio" name="question4" value="1"> Yes<br>
+                <input type="radio" name="question4" value="0"> No<br>
+                <input type="radio" name="question4" value="2"> Maybe<br>
+            </div>
+
+            
+        </form>
+
+
+        <button type="button" onclick="generateID()" id="next">Continue</button>
+        <div id="result" style="margin-top: 20px;"></div>
+        <div id="errormessage" align="center"></div>
+    </div>
+    </div>
+    <p id="pagecount">Page 1 of 5</p>
+    <script src="test.js"></script>
+</body>
+</html>

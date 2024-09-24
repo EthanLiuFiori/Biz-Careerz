@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Biz Careerz</title>
+        <link rel="icon" type="image/x-icon" href="Log.png">
+        <script src="Main.js"></script>
+        <!--Dont forget to add a favicon later-->
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+            let tabs = document.getElementsByClassName('click');
+            
+            for (let i = 0; i < tabs.length; i++) {
+                let tabText = tabs[i].textContent.trim();
+                
+                // Set cursor style for buttons
+                tabs[i].style.cursor = 'pointer';
+
+                tabs[i].addEventListener('click', () => {
+                    if (tabText === 'Home') {
+                        window.location.href = 'index.html';
+                    } else if (tabText === 'Opportunities') {
+                        window.location.href = 'OpportunitiesSubFolder/Opportunities.html';
+                    } else {
+                        window.location.href = `${tabText}.html`;
+                    }
+                });
+            }
+        });
+
+
+
+
+        </script>
+
+        <header id="start">
+            <button class="click"><h5 class="tab" style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;">Home</h1></button>
+            <button class="click"><h5 class="tab" style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;">About</h1></button>
+            <button class="click"><h5 class="tab" style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;">Opportunities</h1></button>
+            
+            <img style= 'left:35px'id="logo" src="Log.png" alt="logo">
+            <h1 id = 'title' style="font-family: 'Source Sans Pro', sans-serif; font-weight: 700;">BizCareerz</h1>
+            <h3 style="font-family: 'Source Sans Pro', sans-serif; font-weight: 250;"><u>Made for</u> Business Students, <u>By</u> Business Students</h3>
+            <button id="getStarted" onclick="location.href='pretest.html'">Get Started    <img id="arrow" src="Arrow.png"></button>
+        
+        
+        </header>
+            
+    </head>
+    <body id="body1">
+        
+
+    <h1 align="center" id="ti1">BizCareerz<img src="Log.png" id="switcher"></h1>
+    <hr id="hr1">
+    <h2 align="center"id="ti2">Finding Your Future Made Easy</h2>
+    <p id="stt1">Welcome to BizCareerz, the ultimate platform for discovering your ideal career in business and STEM </p>
+    <hr id="hr2">
+    <p id="st1">Our unique career aptitude test evaluates your strengths, interests, and goals to match you with over 70 diverse career paths. Each career profile provides in-depth details such as salary progression, top schools, and prime locations, giving you all the information you need to make informed decisions about your future. Whether you're just starting out or looking to pivot your career, BizCareerz is here to guide you every step of the way.
+    </p>
+    <p id="st2">In addition to career matching, we offer access to a vast database of over 300 business and STEM internships, along with scholarship opportunities totaling more than $1.5 million. These resources ensure that you not only find your path but also have the support and opportunities needed to succeed in it. With BizCareerz, you can confidently explore your options, build your network, and take the next steps toward a rewarding career.</p>
+    <button onclick="location.href='pretest.html'" id="st111">Make Your Future a Reality Now</button>   
+</body>
+</html>

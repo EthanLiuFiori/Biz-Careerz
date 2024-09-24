@@ -1,0 +1,41 @@
+#results {
+    border: 2px solid rgba(135, 231, 255, 0.568);
+    border-radius: 8px;
+    padding: 20px;
+    width: 70%;
+    height: auto;
+    align-self: center;
+    margin: 0 auto 0;
+    margin-top: 50px;
+}
+
+.job {
+    border: 2px solid rgba(67, 0, 143, 0.712);
+    background-color: rgba(102, 48, 102, 0.212);
+    border-radius: 4px;
+    padding: 5px;
+    line-height: 50px;
+    margin: 10px;
+    width: 75%;
+    cursor: pointer;
+}
+#Rtitle{
+    color:white;
+    position: relative;
+    top:10px;
+    font-size:40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    left:5px;
+}
+#loopback{
+    position: relative;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    left:40%; top:20px;
+    border-radius: 8px;
+    background-color: rgba(2, 23, 141, 0.329);
+    transition: transform 0.3s ease;
+    margin-bottom: 80px;
+}
+#loopback:hover{
+    transform: scale(1.05);}

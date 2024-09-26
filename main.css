@@ -63,29 +63,35 @@ body {
     overflow-x: hidden; /* Prevent horizontal scrolling */
     padding-bottom: 50px;
 }
-
-#body1{
-    margin: 0;
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#body1 {
+    margin: 0 auto 0;
     padding: 70px 0 100px 0; /* Adjust bottom padding for more distance */
     background-image: url("Background.png");
     transition: background-position 0.75s ease;
     background-repeat: no-repeat;
     backdrop-filter: blur(30px) brightness(70%);
-    background-position: center top;
-    background-size: cover;
+    background-position: center center; /* Center the image both horizontally and vertically */
+
     min-height: 100vh;
     overflow-y: auto; /* Enable vertical scrolling */
     overflow-x: hidden; /* Prevent horizontal scrolling */
     padding-bottom: 700px;
+
 }
+
 
 #st111{
     position: absolute;
     height: 40px;
-    width: 300px;
+    width: 15%;
     top: 1500px;
-    right: 42.5%;
-
+    margin: 0 42.5vw 0;
+    background-color: rgba(153, 0, 255, 0.226);
+    text-align: center;
 }
 #arrow{
     position: absolute;
